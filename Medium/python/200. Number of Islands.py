@@ -15,7 +15,6 @@ class Solution:
         if grid[row][col] == "0":
             return grid
 
-
         grid[row][col] = "0"
 
         grid = self.visit(grid, row - 1, col)
