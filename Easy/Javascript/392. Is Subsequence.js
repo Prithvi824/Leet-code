@@ -18,7 +18,6 @@ var isSubsequence = function (s, t) {
       ind++;
     }
   }
-
   return word === s;
 };
 
